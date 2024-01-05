@@ -13,7 +13,7 @@ const Footer = () => {
             height={38}
           />
         </Link>
-        <p>{new Date().getFullYear()} All Rights Reserved</p>
+        <p>&copy; {new Date().getFullYear()} All Rights Reserved</p>
       </div>
     </footer>
   );
